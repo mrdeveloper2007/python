@@ -1,4 +1,4 @@
-'''str= input("enter the string:")
+str= input("enter the string:")
 substr = input("enter substr:")
 length=len(str)
 sublen= len(substr)
@@ -15,7 +15,7 @@ while True:
     if start>=length:
         break
 print("no of occurence:",count)
-'''
+
 str=input("enter string")
 str2=input("enter substring")
 length=len(str)
