@@ -1,10 +1,10 @@
 str= input("enter the string:")
 substr = input("enter substr:")
-len=len(str)
-sublen=len(substr)
+length=len(str)
+sublen= len(substr)
 count=0
 start=0
-end=len
+end=length
 while True:
     pos=str.find(substr,start,end)
     if pos!=-1:
@@ -12,6 +12,6 @@ while True:
         start=pos+sublen
     else:
         break
-    if start>=len:
+    if start>=length:
         break
 print("no of occurence:",count)
